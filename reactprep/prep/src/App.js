@@ -3,7 +3,7 @@ import "./App.css";
 import React from "react";
 import Comp1 from "./Comp1";
 import { useState } from "react";
-
+import HooksUEPractice from "./HooksUEPractice";
 // function Counter() {
 //     const [count, setCount] = useState(0);
 
@@ -94,9 +94,11 @@ function App() {
             {/* <InputBox /> */}
             {/* <Toggle /> */}
 
-            <Slider onChange={onChange} val={val} />
+            {/* <Slider onChange={onChange} val={val} />
             <Input onChange={onChange} val={val} />
-            <p>{val}</p>
+            <p>{val}</p> */}
+
+            <HooksUEPractice />
         </div>
     );
 }
