@@ -1,5 +1,4 @@
 import React from "react";
-
 export default function Comp1(props) {
     {
         console.log(props);
