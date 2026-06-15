@@ -4,6 +4,7 @@ import React from "react";
 import Comp1 from "./Comp1";
 import { useState } from "react";
 import HooksUEPractice from "./HooksUEPractice";
+import Useeffectq1 from "./Useeffectq1";
 // function Counter() {
 //     const [count, setCount] = useState(0);
 
@@ -98,7 +99,8 @@ function App() {
             <Input onChange={onChange} val={val} />
             <p>{val}</p> */}
 
-            <HooksUEPractice />
+            {/* <HooksUEPractice /> */}
+            <Useeffectq1 />
         </div>
     );
 }
